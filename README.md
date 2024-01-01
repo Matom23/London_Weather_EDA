@@ -56,10 +56,12 @@ pressure - pressure measurement in Pascals (Pa)
 
 snow_depth - snow depth measurement in centimeters (cm)
 
+**References**
+
+F.Werr, E. "London Weather Data" December 2021. 
 https://www.kaggle.com/datasets/emmanuelfwerr/london-weather-data
 
-**Weather Data source** 
-
+ECA&D. 
 https://www.ecad.eu/dailydata/index.php
 
 
