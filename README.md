@@ -34,7 +34,7 @@ Accurate predictions of mean temperature can significantly impact decision-makin
 **Dataset**
 
 The dataset being utilised to perform the EDA was obtained from kaggle and retreived by _Emmanuel F. Werr_. It is an aggregate of different weather attributes extracted from the _European Climate Assessment & Dataset_ (ECA&D). The measurements were reported at a weather station near London's Heathrow airport. 
-The dataset comprises of historical data collected from 1979 to 2021. It has 15341 rows and 10 columns. The models will use the variables needed to understand their relevant impact. This should provide enough variables for the models to understand their relevant impact.
+The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st 2020. It has 15341 rows and 10 columns. The models will use the variables needed to understand their relevant impact. This should provide enough variables for the models to understand their relevant impact.
 
 date - recorded date of measurement
 
