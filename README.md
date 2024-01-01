@@ -11,6 +11,7 @@ An EDA was performed as part of a Capstone project at BrainStation's Diploma Dat
 EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable.  Iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance when comparing the residuals especially regarding the outliers.
 
 I used a linear regression model to address the question and explore the linear relationships to 'mean_temp'. However, the next step would be to also address the outliers to improve accuracy. Additionally, we should also try to understand the non-linear relationships with mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understand the trend of mean_temp' in London. 
+
 **The User**
 
 Insights from these models would provide information necessary for decision-making to a variety of stakeholders. Some of these include:
