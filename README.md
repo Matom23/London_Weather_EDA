@@ -4,16 +4,9 @@ _Creator: Mathew Thomas_
 
 **Introduction**
 
-An EDA was performed on London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on historical data, and assuming the general trend for the linear & non-linear relationships are continuous with respect to the dependant variable, the mean temperatures at London, can be predicted with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
-A linear regression model was used to address the question and explore the linear relationships to 'mean_temp'. However, the next step would be to also address the outliers to improve accuracy. Additionally, we should also try to understand the non-linear relationships with mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understanding the trend of 'mean_temp' in London. Machine learning techniques were then explored as well to predict future mean temperatures in London. 
+An EDA was performed on a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on historical data, and assuming the general trend for the linear & non-linear relationships are continuous with respect to the dependant variable, the mean temperatures at London, can be predicted with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+Machine learning techniques were then explored as well to predict future mean temperatures in London. A linear regression model was initially used to address the question and explore the linear relationships to 'mean_temp'.   
  
-**About**
-
-EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable.  Iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance when comparing the residuals especially regarding the outliers.
-
- 
-
-
 
 **The User**
 
@@ -22,10 +15,6 @@ Insights from these models would provide information necessary for decision-maki
 1. Meteorologist agencies - provide weather forecasters tangible insights to report to the general public or industries so that respectively they can plan accordingly.
 2. Energy companies - predictions help in establishing a plan for the distribution of energy accordingly with regards to their heating and cooling systems.
 3. Urban planners - helps focus their attention and allocate resources accordingly towards the development of infrastructure as well as mitigate for potential disasters. 
-
-
-**The Big Idea**
-
  
 
 **The Impact**
@@ -56,6 +45,11 @@ precipitation - precipitation measurement in millimeters (mm)
 pressure - pressure measurement in Pascals (Pa)
 
 snow_depth - snow depth measurement in centimeters (cm)
+
+**Summary**
+
+EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable. Iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance  with 'cloud_cover', 'snow_depth', 'year' & 'month' when comparing the different model residuals. 
+The next step would be to also understand the non-linear relationships, perhaps try using median instead of mean to fill in null values, and address the outliers. Additionally, we should also try to understand all relationships with 'mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understanding the trend of 'mean_temp' in London.
 
 **References**
 
