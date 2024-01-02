@@ -13,7 +13,7 @@ EDA first used Pearson correlation to better understand the relationship between
 I used a linear regression model to address the question and explore the linear relationships to 'mean_temp'. However, the next step would be to also address the outliers to improve accuracy. Additionally, we should also try to understand the non-linear relationships with mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understand the trend of mean_temp' in London. 
 
 
-
+tyjrtehrgefd
 
 
 **The User**
