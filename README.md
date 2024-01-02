@@ -4,16 +4,15 @@ _Creator: Mathew Thomas_
 
 **Introduction**
 
-An EDA was performed as part of a Capstone project at BrainStation's Diploma Data Science Program. Machine learning techniques were then explored as well to predict future mean temperatures in London. 
+An EDA was performed on London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on historical data, and assuming the general trend for the linear & non-linear relationships are continuous with respect to the dependant variable, the mean temperatures at London, can be predicted with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+A linear regression model was used to address the question and explore the linear relationships to 'mean_temp'. However, the next step would be to also address the outliers to improve accuracy. Additionally, we should also try to understand the non-linear relationships with mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understanding the trend of 'mean_temp' in London. Machine learning techniques were then explored as well to predict future mean temperatures in London. 
  
 **About**
 
 EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable.  Iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance when comparing the residuals especially regarding the outliers.
 
-I used a linear regression model to address the question and explore the linear relationships to 'mean_temp'. However, the next step would be to also address the outliers to improve accuracy. Additionally, we should also try to understand the non-linear relationships with mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understand the trend of mean_temp' in London. 
+ 
 
-
-tyjrtehrgefd
 
 
 **The User**
@@ -27,7 +26,7 @@ Insights from these models would provide information necessary for decision-maki
 
 **The Big Idea**
 
-Based on historical data, and assuming the general trend for the linear & non-linear relationships are continuous with respect to the dependant variable, the mean temperatures at London, can be predicted with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+ 
 
 **The Impact**
 
