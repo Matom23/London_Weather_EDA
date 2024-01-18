@@ -2,10 +2,14 @@
 
 _Creator: Mathew Thomas_
 
+**About**
+
+A number of weather attributes were cleaned and compiled together to form a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on the historical data, a question was asked on how well we could predict quantifiable precipitation in London. With the aid of machine learning, we can try to predict this with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+
 **Introduction**
 
-An EDA was performed on a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on historical data, and assuming the general trend for the linear & non-linear relationships are continuous with respect to the dependant variable, the mean temperatures at London, can be predicted with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
-Machine learning techniques were then explored as well to predict future mean temperatures in London. A linear regression model was initially used to address the question and explore the linear relationships to 'mean_temp'.   
+Precipitation is any liquid or frozen water that begins in the atmosphere and falls to the Earth's surface. Predicting it can provide cruical information to a wide variety of groups and entities. 
+ A linear regression model was initially used to address the question and explore the linear relationships to 'mean_temp'.   
  
 
 **The User**
@@ -24,31 +28,24 @@ Accurate predictions of mean temperature can significantly impact decision-makin
 **Dataset**
 
 The dataset being utilised to perform the EDA was obtained from kaggle and retreived by _Emmanuel F. Werr_. It is an aggregate of different weather attributes extracted from the _European Climate Assessment & Dataset_ (ECA&D). The measurements were reported at a weather station near London's Heathrow airport. 
-The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st 2020. It has 15341 rows and 10 columns. The models will use the variables needed to understand their relevant impact. This should provide enough variables for the models to understand their relevant impact.
+The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st 2022. It has 15341 rows and 10 columns. The models will use the variables needed to understand their relevant impact. This should provide enough variables for the models to understand their relevant impact.
 
-date - recorded date of measurement
-
-cloud_cover - cloud cover measurement in oktas
-
-sunshine - sunshine measurement in hours (hrs)
-
-global_radiation - irradiance measurement in Watt per square meter (W/m2)
-
-max_temp - maximum temperature recorded in degrees Celsius (°C)
-
-mean_temp - mean temperature in degrees Celsius (°C)
-
-min_temp - minimum temperature recorded in degrees Celsius (°C)
-
-precipitation - precipitation measurement in millimeters (mm)
-
-pressure - pressure measurement in Pascals (Pa)
-
-snow_depth - snow depth measurement in centimeters (cm)
+### Data dictionary:
+- `DATE`: recorded date of measurement
+- `CC`: Cloud Cover, measurement in oktas 
+- `HU`: Humidity, measurement in %
+- `QQ`: Global Radiation, irradiance measurement in Watt per square meter (W/m2)
+- `TX`: Temperature Maximum, maximum temperature recorded in degrees Celsius (°C)
+- `TG`: Temperature Mean, mean temperature in degrees Celsius (°C)
+- `TN`: Temperature Minimum, minimum temperature recorded in degrees Celsius (°C)
+- `RR`: Precipitation, precipitation measurement in millimeters (mm)
+- `PP`: Pressure, pressure measurement in Pascals (hPa)
+- `SD`: Snow Depth, depth measurement in centimeters (cm)
+- `SS`: Sunshine, measurement in hours (hrs)
 
 **Summary**
 
-EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable. Iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance  with 'cloud_cover', 'snow_depth', 'year' & 'month' when comparing the different model residuals. 
+EDA first used Pearson correlation to better understand the relationship between the variables. The mean temperature was then used as the the dependent variable. Using Stepwise Regression, iterations of a linear regression model were used to help provide the best predictions for 'mean_temp'. It was noted there was alot of variance  with 'cloud_cover', 'snow_depth', 'year' & 'month' when comparing the different model residuals. 
 The next step would be to also understand the non-linear relationships, perhaps try using median instead of mean to fill in null values, and address the outliers. Additionally, we should also try to understand all relationships with 'mean_temp' through the usage of other models. A combinations of multiple models addressing both the linear & non-linear relationships would provide us the best accuracy in understanding the trend of 'mean_temp' in London.
 
 **References**
