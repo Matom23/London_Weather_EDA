@@ -4,7 +4,7 @@ _Creator: Mathew Thomas_
 
 ## About
 
-A number of weather attributes were cleaned and compiled together to form a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on the historical data, a question was asked on how well we could predict quantifiable precipitation in London. With the aid of machine learning, we can try to predict this with the best accuracy. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+A number of weather attributes were cleaned and compiled together to form a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on the historical data, a question was asked on how well we could predict quantifiable precipitation in London using the aid of machine learning models. The final model could in turn be used as a baseline for building similar models for other cities as well. 
 
 ## Introduction
 
