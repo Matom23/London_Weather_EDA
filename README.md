@@ -26,7 +26,7 @@ Accurate predictions of precipitation can significantly impact decision-making a
 ### Dataset
 
 The dataset being utilised is an aggregate of different weather attributes extracted from the _European Climate Assessment & Dataset_ (ECA&D). The measurements were reported at a weather station near London's Heathrow airport. 
-The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st 2022. It has 16071 rows and 11 columns. The models will use the variables needed to understand their relevant impact. This should provide enough variables for the models to understand their relevant impact.
+The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st 2022. It has 16071 rows and 11 columns. The models will use the variables needed to understand their relevant impact. 
 
 ### Data dictionary:
 - `DATE`: recorded date of measurement
