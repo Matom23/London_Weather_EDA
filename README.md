@@ -4,7 +4,7 @@ _Creator: Mathew Thomas_
 
 ## About
 
-A number of weather attributes were cleaned and compiled together to form a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on the historical data, a question was asked on how well we could predict quantifiable precipitation in London using the aid of machine learning models. The final model could in turn be used as a baseline for building similar models for other cities as well. 
+A number of weather attributes were cleaned and compiled together to form a London Weather dataset as part of a Capstone project at BrainStation's Diploma Data Science Program. Based on the historical data, a question was asked on how well we could predict precipitation in London with the aid of machine learning models.  
 
 ## Introduction
 
@@ -43,9 +43,8 @@ The dataset comprises of historical data collected from Jan 1st 1979 to Dec 31st
 
 ## Summary
 
-We can summarize that our initial approach of splitting the problem up into first a classification problem and then into a regression one didn't provide the result we wanted. Attempting to use a Decision Tree Regressor provided us with a negative test score. This meant that when combined with PCA, it was not able to capture the underlying patterns or relationships in the data effectively. This could mean that it was not generalizing well on unseen data leading to overfitting. 
-The next model had us using the Random Forest generator in the hope that it would resolve my overfitting issues and would generalize well to unseen data. 
-Next, I hope to try and utilize deep learning models to help me answer my question. Perhaps a pairing of a RNN such as LSTM(or GRU) with a machine library like Pytorch.  
+A variation of models were run of which the Tuned LGBM seemed to showcase the most promise in terms of usability. However, more data and information is required to enhance the model's ability to predict precipitation. Additionally, discussion with SMEs could further improve data validity. Another possible avenue to investigate would be in deep learning models such as DeepAR. Further exploration is required into both forecasting and optimization methods to capture such a complex feature. 
+
 
 ## Reference
 
