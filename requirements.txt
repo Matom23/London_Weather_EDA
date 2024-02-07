@@ -122,8 +122,7 @@ six==1.16.0
     #   python-dateutil
 smmap==5.0.1
     # via gitdb
-statsmodels==0.14.1
-    # via -r requirements.in
+statsmodels
 streamlit==1.31.0
     # via -r requirements.in
 tenacity==8.2.3
