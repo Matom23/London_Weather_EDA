@@ -26,12 +26,12 @@ import statsmodels.api as sm
 @st.cache_data
 def load_data():
     # Load your dataset here
-    df = pd.read_csv("C:\\Users\\mitth\\Documents\\Brainstation\\Final_Project\\London_Weather_EDA\\clean_data.csv")  # Update with your dataset path
+    df = pd.read_csv(".\\clean_data.csv")  # Update with your dataset path
     return df
 
 # Load image
 from PIL import Image
-image = Image.open("C:\\Users\\mitth\\Documents\\Brainstation\\Final_Project\\London_Weather_EDA\\Demo\\Homepage.png")
+image = Image.open(".\\Demo\\Homepage.png")
 
 
 lw_df = load_data()
