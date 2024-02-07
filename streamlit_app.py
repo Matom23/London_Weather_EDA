@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import pandas as pd
 import numpy as np
 # import matplotlib.pyplot as plt
@@ -26,12 +27,12 @@ import statsmodels.api as sm
 @st.cache_data
 def load_data():
     # Load your dataset here
-    df = pd.read_csv(".\\clean_data.csv")  # Update with your dataset path
+    df = pd.read_csv(os.path.join(".", "clean_data.csv"))  # Update with your dataset path
     return df
 
 # Load image
 from PIL import Image
-image = Image.open(".\\Demo\\Homepage.png")
+image = Image.open(os.path.join(".", "Demo", "Homepage.png"))
 
 
 lw_df = load_data()
