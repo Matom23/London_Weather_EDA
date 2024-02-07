@@ -1,8 +1,3 @@
-import os
-
-os.system("python -m pip install statsmodels")
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
